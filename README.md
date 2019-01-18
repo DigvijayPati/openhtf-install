@@ -13,8 +13,8 @@ $ docker run --rm -it your-image-name
 
 ### Run sample openhtf test from inside container
 ```bash
-$ cd /usr/local/lib/python3.5/dist-packages/examples
-$ python3 hello-world.py
+root@b0c382a2a9d4:/# cd /usr/local/lib/python3.5/dist-packages/examples
+root@b0c382a2a9d4:/# python3 hello-world.py
 ```
 
 ## Contributing
