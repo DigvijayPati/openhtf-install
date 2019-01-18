@@ -11,7 +11,7 @@ $ docker build --no-cache -t your-image-name -f Dockerfile .
 $ docker run --rm -it your-image-name
 ```
 
-###Run sample openhtf test from inside container
+### Run sample openhtf test from inside container
 ```bash
 $ cd /usr/local/lib/python3.5/dist-packages/examples
 $ python3 hello-world.py
