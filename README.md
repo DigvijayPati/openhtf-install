@@ -8,7 +8,7 @@ $ docker build --no-cache -t your-image-name -f Dockerfile .
 
 ## Run Container
 ```bash
-$ docker run --rm -it your-image-name
+$ docker run --rm -it --network=host your-image-name
 ```
 
 ### Run sample openhtf test from inside container
